@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    background-color: rgb(217, 221, 221);
+    justify-content:space-around;
+    align-items: center;
+    height:40px;
+   
+    width: 100vmax;
+}
+
+.logo{
+    height:34px
+}
+
+.link-head{
+    font-size: 16px;
+}

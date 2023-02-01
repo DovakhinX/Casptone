@@ -1,0 +1,29 @@
+.res-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+}
+
+input {
+  width: 180px;
+  height: 20px;
+}
+
+select {
+  width: 180px;
+  height: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+.button-res {
+  width: 290px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}

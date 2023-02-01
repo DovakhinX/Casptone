@@ -1,0 +1,29 @@
+.whole {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.contextbox {
+  width: 600px;
+}
+
+
+
+.filler {
+  border-radius: 10px;
+}
+
+.about-head {
+  font-size: 25px;
+}
+
+.about-cont {
+  font-size: 19px;
+}

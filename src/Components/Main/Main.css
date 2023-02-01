@@ -1,0 +1,81 @@
+.hero {
+  width: 100vmax;
+}
+
+.item {
+  width: 600px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #888888;
+  transition: 0.3s;
+}
+
+.item:hover {
+  width: 603px;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  flex-direction: row-reverse;
+}
+
+.item3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.menu-head {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.item1-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+}
+
+.des-head {
+  font-size: 23px;
+}
+
+.des-con {
+  font-size: 19px;
+}
+
+.testimony {
+  padding-bottom: 100px;
+}
+
+.test-head {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.test-cont {
+  font-size: 19px;
+}
+
+.test-auth{
+    font-size: 18px;
+}
+
+.test{
+    text-align: center;
+    padding-bottom: 15px;
+}
