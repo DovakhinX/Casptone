@@ -22,6 +22,17 @@ const fetchAPI = (date: Date) => {
     return result;
 };
 
-const submitAPI = (formData: any) => {
+
+export interface formData{
+    date:Date;
+    time:string;
+    guest:number;
+    occasion:string;
+}
+
+const submitAPI = (formData: formData) => {
+    console.log(formData);
     return true;
 };
+
+export {fetchAPI,submitAPI};
