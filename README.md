@@ -1,12 +1,11 @@
 # Casptone
-Meta Frontend Capstone Project
 
+##### Meta Frontend Capstone Project
 
-1)npm install 
+#### 1)npm install
+
 :Install the dependency
 
+#### 2)npm run dev
 
-2)npm run dev
 :To start the vite project
-
-

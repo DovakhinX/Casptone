@@ -27,3 +27,21 @@
 .about-cont {
   font-size: 19px;
 }
+
+@media (max-width:480px) {
+  .mainbox{
+    flex-direction: column;
+  }
+  
+  .contextbox{
+    width:400px;
+  }
+
+  .filler{
+    height:280px
+  }
+
+  .picbox{
+    padding-bottom: 60px;
+  }
+}

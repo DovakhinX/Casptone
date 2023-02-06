@@ -12,10 +12,14 @@
   transition: 0.2s;
 }
 
-.finalimg:hover {
-  height: 301px;
-}
+
 
 .finaltxt {
   font-size: 24px;
+}
+
+@media (max-width:480px){
+.finalimg{
+  height:280px;
+}
 }

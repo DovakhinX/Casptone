@@ -79,3 +79,27 @@
   text-align: center;
   padding-bottom: 15px;
 }
+
+@media (max-width: 480px) {
+  .hero {
+    display: none;
+  }
+
+  .item1,
+  .item2,
+  .item3 {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 410px;
+  }
+
+  .item1-des {
+    width: 400px;
+  }
+
+  .item:hover {
+    width: 403px;
+  }
+}
