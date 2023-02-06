@@ -1,6 +1,6 @@
-# Casptone
 
-##### Meta Frontend Capstone Project
+
+## Meta Frontend Capstone Project
 
 #### 1)npm install
 
