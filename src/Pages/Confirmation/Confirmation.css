@@ -1,0 +1,21 @@
+.final {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 500px;
+  flex-direction: column;
+}
+
+.finalimg {
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px rgb(43, 42, 42);
+  transition: 0.2s;
+}
+
+.finalimg:hover {
+  height: 301px;
+}
+
+.finaltxt {
+  font-size: 24px;
+}

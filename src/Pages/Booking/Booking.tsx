@@ -14,10 +14,10 @@ export interface State {
 }
 
 export interface formData {
-    date: Date;
-    time: string;
-    guest: number;
-    occasion: string;
+    date: Date,
+    time: string,
+    guest: number,
+    occasion: string,
 }
 
 interface Action {
@@ -60,7 +60,11 @@ function getAvailableTimes(date: Date): string[] {
 function Booking({ }: BookingProps) {
     const navigate = useNavigate();
 
+
+
     function submitForm(data: formData) {
+
+
         submitAPI(data) ? navigate('/confirm') : alert("Your request Failed!!");
 
 
@@ -69,6 +73,7 @@ function Booking({ }: BookingProps) {
 
     const [state, dispatch] = useReducer(reducer, initialState);
 
+  
 
 
 
